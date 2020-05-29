@@ -1,0 +1,8 @@
+{
+  "name": "Dyson Fan",
+  "zip_release": true,
+  "filename": "dyson_fan.zip",
+  "domains": ["dyson", "sensor"],
+  "homeassistant": "0.110.0",
+  "iot_class": "Local Push"
+}

@@ -1,0 +1,11 @@
+{
+  "domain": "dyson_fan",
+  "name": "Dyson Fan",
+  "documentation": "https://github.com/ivanmihov/ha-dyson-fan",
+  "dependencies": [],
+  "config_flow": true,
+  "codeowners": [
+    "@ivanmihov"
+  ],
+  "requirements": []
+}
