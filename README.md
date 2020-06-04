@@ -5,6 +5,14 @@
 2. Add `https://github.com/ivanmihov/ha-dyson-fan` as a [custom repository](https://custom-components.github.io/hacs/usage/settings/#add-custom-repositories) as Type: Integration
 3. Click install under "Dyson Fan", restart your instance.
 
+## Installation (Manual)
+1. Download this repository as a ZIP (green button, top right) and unzip the archive
+2. Copy `/custom_components/dyson_fan` to your `<config_dir>/custom_components/` directory
+   * You will need to create the `custom_components` folder if it does not exist
+   * On Hassio the final location will be `/config/custom_components/dyson_fan`
+   * On Hassbian the final location will be `/home/homeassistant/.homeassistant/custom_components/dyson_fan`
+3. Restart your instance.
+
 ## Configuration
 
 ```yaml
