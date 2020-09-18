@@ -3,7 +3,7 @@ import logging
 
 from .controller.dyson_pure_cool_link import DysonPureCoolLink
 
-from homeassistant.const import STATE_OFF, TEMP_CELSIUS, TIME_HOURS, UNIT_PERCENTAGE
+from homeassistant.const import STATE_OFF, TEMP_CELSIUS, TIME_HOURS, PERCENTAGE
 from homeassistant.helpers.entity import Entity
 
 from . import DYSON_DEVICES
