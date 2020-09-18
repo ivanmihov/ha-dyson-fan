@@ -12,7 +12,7 @@ SENSOR_UNITS = {
     "air_quality": None,
     "dust": None,
     "filter_life": TIME_HOURS,
-    "humidity": UNIT_PERCENTAGE,
+    "humidity": PERCENTAGE,
 }
 
 SENSOR_ICONS = {
