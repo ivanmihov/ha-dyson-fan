@@ -197,7 +197,7 @@ class DysonPureCoolLinkDevice(FanEntity):
     def is_on(self):
         """Return true if the entity is on."""
         if self._device.state:
-            return self._device.state.fan_mode == "FAN" or self._device.state.fan_mode == "AUTO"
+            return self._device.state.fan_mode == "FAN"
         return False
 
     @property
