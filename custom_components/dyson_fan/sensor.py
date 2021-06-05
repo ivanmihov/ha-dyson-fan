@@ -71,7 +71,7 @@ class DysonSensor(Entity):
         """Handle new messages which are received from the fan."""
         # Prevent refreshing if not needed
         if self._old_value is None or self._old_value != self.state:
-            _LOGGER.debug("%s: Message received for %s device: %s", DOMAIN, self.name, message)
+            _LOGGER.debug("%s: Message received for %s device: %s", self.name, message)
             self._old_value = self.state
             self.schedule_update_ha_state()
 
